@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>RPS Game</title>
+    <meta charset="UTF-8">
+   	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    
+      <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>     
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+   
+    
+    <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+  </head>
+  <body>
+
+  
+  <header>
+  
+  <div class='col-md-12'> 
+  	<h1 class='t1'>Rock</h1>
+    <h1 class='t2'>paper</h1>
+    <h1 class='t3'>Scissor</h1>
+  </div>
+   
+  </header>
+
+  <div class='col-md-12'> 
+    <div class='addPlayer'>
+    <form>
+     
+        <input type='text' id='player-name' placeholder='Name' >
+        <input id="addPlayerBtn" class="btn-md" type="submit" value='Start'>
+    </form>
+    </div>
+  </div>
+
+
+  <div id='player1' class='col-md-4'></div>
+  <div id='board' class='col-md-4'></div>  
+  <div id='player2' class='col-md-4'></div>
+  
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>    
+  <script src="assets/javascript/app.js"></script>
+  
+
+  </body>
+</html>
